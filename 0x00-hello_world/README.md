@@ -1,2 +1,1 @@
-# alx-low_level_programming
-Cprogramming
+My readme file for 0x00-hello_world
