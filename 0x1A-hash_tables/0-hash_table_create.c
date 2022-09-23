@@ -1,15 +1,15 @@
 #include "hash_tables.h"
 
 /**
-* A function that creates a hash table
-* @size: size of the array
-* Returns a to the newly created hash table or 
-*  NULL if something went wrong 
-**/
-
+ * Creates a hash table.
+ * @size: The size of the array.
+ *
+ * Return: If an error occurs - NULL.
+ *         Otherwise - a pointer to the new hash table.
+ */
 hash_table_t *hash_table_create(unsigned long int size)
 {
-    hash_table_t *ht;
+	hash_table_t *ht;
 	unsigned long int i;
 
 	ht = malloc(sizeof(hash_table_t));
